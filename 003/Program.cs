@@ -3,3 +3,9 @@
 // -3 -> нет
 // 7 -> нет
 
+Console.WriteLine("введите число");
+int a = Convert.ToInt32(Console.ReadLine());
+if (a % 2 == 0)
+    Console.WriteLine("четное");
+else
+    Console.WriteLine("не четное");
